@@ -17,10 +17,3 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
-test.use({ 
-  browserName: 'chromium',
-  channel: 'chrome',
-  headless: false, 
-  viewport: null ,
-  launchOptions :{args:['--start-maximized']}
-});
