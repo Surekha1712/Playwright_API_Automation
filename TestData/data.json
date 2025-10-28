@@ -1,0 +1,19 @@
+[
+    
+        {
+            "username":"standard_user",
+            "password":"secret_sauce",
+            "expected_result":"Login Successful"
+        },
+        {
+            "username":"locked_out_user",
+            "password":"secret_sauce",
+            "expected_result":"Login Successful"  
+        },
+        {
+            "username":"error_user",
+            "password":"secret_sauce",
+            "expected_result":"login Successful"
+        }
+    
+]
