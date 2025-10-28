@@ -75,23 +75,3 @@ Running the same login test on the SauceDemo website with different usernames an
 | **Mocking** | [Playwright/dev/fruits](https://playwright.dev) | Simulated fake API responses for testing |
 | **Data-Driven Testing** | [SauceDemo](https://www.saucedemo.com) | Tested login functionality with multiple input data sets |
 
----
-
-## Tech Stack
-- Language: JavaScript / TypeScript  
-- Framework: Playwright  
-- API Testing: JSONPlaceholder, Playwright/dev/fruits  
-- UI Testing: SauceDemo
-
----
-
-## Learning Outcomes
-- Understanding REST API structure and CRUD operations  
-- Implementing API chaining and mocking in Playwright  
-- Creating data-driven test frameworks  
-- Performing UI automation using test data  
-- Integrating API and UI automation in one framework
-
----
-
-## Folder Structure
